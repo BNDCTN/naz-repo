@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Demonstration</title>
+    </head>
+    <body>
+        <script>
+        
+        class User{
+            constructor(name = '', age = 0){
+                this.id;
+                this.name = name;
+                this.age = age;
+            }
+
+            set Name(name){     this.name = name; }
+            get Name(){         return this.name; }
+
+            set Age(age){       this.age = age; }
+            get Age(){          return this.age; }
+        }
+/*
+        function User(name, age){
+            this.name = name;
+            this.age = age;
+        }
+*/        
+        class UserManager{
+            constructor(){
+                this.users = [];
+            }
+
+            addUser(user){
+                user.id = 4;
+                this.method();
+                this.users.push(user);
+            }
+
+            remodeUser(id){
+                let user = this.users.filter(x => x.id == id);
+                this.users.splice(this.users.indexOf(user), this.users.indexOf(user)+1);
+            }
+
+            log(){
+                // console
+            }
+
+            method(){
+                
+            }
+
+            static st(){
+
+            }
+
+        }
+        
+        let user = new User();
+
+
+
+        user.Name = 'Franyk';
+
+        user.Age(24);
+
+        console.log(user.Name);
+        console.log(user.Age());
+        
+        
+        let table = new UserManager();
+        
+        table.addUser(user)
+        table.remodeUser(4);
+        console.log(table);
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </script>
+    </body>
+</html>
