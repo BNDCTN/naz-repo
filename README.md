@@ -1,7 +1,2 @@
 # naz-repo
-........................\n
-> npm i\n
-........................\n
-> npm run build\n
-........................\n
-> npm run start\n
+npm i & npm run build & npm run start
