@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.flexed{
+    display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+.rectangle {
+    background: #159;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    color: aliceblue;
+    font-size: 50pt;
+    font-family: sans-serif;
+}  
