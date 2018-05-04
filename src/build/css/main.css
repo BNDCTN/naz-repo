@@ -8,12 +8,12 @@
   	justify-content: center;
 }
 .rectangle {
-    background: #159;
-    width: 50%;
+    background: red;
+    width: 75%;
     height: 50%;
     margin: auto;
     display: flex;
     color: aliceblue;
-    font-size: 50pt;
+    font-size: 20pt;
     font-family: sans-serif;
 }  
