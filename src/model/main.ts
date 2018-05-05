@@ -1,5 +1,6 @@
 import { A } from './lib/A';
 import { B } from './lib/B';
+import { CustomMath } from './lib/CustomMath'
 
 class Project{
     main(){
