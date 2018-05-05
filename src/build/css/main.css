@@ -5,7 +5,6 @@
 body{
     display: flex;
     align-items: center;
-
 }
 .flexed{
     display: flex;
@@ -21,5 +20,4 @@ body{
     color: aliceblue;
     font-size: 75pt;
     font-family: sans-serif;
-    
 }  
