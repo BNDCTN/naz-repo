@@ -13,11 +13,11 @@ body{
 }
 .rectangle {
     background: red;
-    width: 60%;
+    width: 65%;
     height: 70%;
     margin: auto;
     display: flex;
-    color: aliceblue;
+    color: rgb(241, 255, 240);
     font-size: 75pt;
     font-family: sans-serif;
 }  
